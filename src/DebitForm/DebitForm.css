@@ -1,0 +1,47 @@
+.debit-form_block {
+    width: 400px;
+    background-color: rgba(123,141,231, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.debit-form_inner {
+    width: 100%;
+}
+
+.debit-input {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 15px);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.debit-input:focus {
+    outline: none;
+}
+
+.error-text {
+    font-size: 10px;
+    color: red;
+    margin: 10px 0;
+}
+
+.debit-submit {
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: rgba(57, 194, 245, 0.7);
+    border-radius: 5px;
+    align-self: center;
+    cursor: pointer;
+    transition: background-color linear .15s;
+}
+
+.debit-submit:hover {
+    background-color: rgba(107, 216, 255, 1);
+    transition: background-color linear .15s;
+}

@@ -1,0 +1,47 @@
+.debit-block {
+    background: linear-gradient(90deg, rgba(110,110,110,1) 0%, rgba(49,172,208,1) 35%, rgba(21,110,191,1) 100%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.debit_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+    text-align: center;
+}
+
+.debit-logo {
+    width: 350px;
+    height: 75px;
+    background: url("../images/visa_PNG30.png") no-repeat 20px 20px;
+    background-size: 75px;
+}
+
+.debit-credential_text {
+    font-size: 30px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.debit-expiration_and_type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.debit-expiration_text {
+    color: #fff;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.debit-type-icon {
+    width: 75px;
+    height: 50px;
+    margin-right: 10px;
+    background: url("../images/logo-mastercard-mobile.svg") no-repeat center;
+    background-size: 100px;
+}
